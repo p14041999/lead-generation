@@ -1,0 +1,117 @@
+html,body{
+    margin:0;
+    padding:0;
+    color:#ffffff
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Red Hat Display',sans-serif;
+}
+.header{
+    height:30px;
+    display:none;
+    background-color: #4C5C68;
+}
+.logo-group{
+    padding:0 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-area{
+    background-color: #2D64BC;
+    padding: 50px 100px;
+    display: block;
+    justify-content: space-between;
+}
+.list-img{
+    margin-left:-50px;
+    height:20rem;
+}
+
+.col{
+    padding: 10px 0;
+    width:100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; */
+}
+.form-container{
+    width:100%;
+    float: left;
+    height:100%;
+    /* justify-content: ; */
+    margin-top:30px;
+
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:20px;
+    width:100%;
+}
+.form-group input{
+    width:100%;
+    height:65px;
+    margin-top:5px;
+    background-color: transparent;
+    border:0;
+    color:#ffffff;
+    padding: 0px 20px;
+    font-size:20px;
+    border:2px solid #ffffff;
+}
+.form-control-btn{
+    margin-top:30px;
+    background-color: #ffffff!important;
+    color:#000000!important;
+    cursor: pointer;
+}
+.subject{
+    padding:50px 100px;
+    color:#000000;
+    background-color:#E2E9ED;
+    border-bottom:5px solid #2D64BC;
+    text-align: justify;
+}
+.process{
+    padding:50px 100px;
+}
+.process-image{
+    width:100%;
+    height:auto;
+}
+.footer{
+    padding:50px 100px;
+    color:#000000;
+    background-color:#E2E9ED;
+    border-top:5px solid #2D64BC;
+    text-align: center;
+}
+@media (min-width:900px) {
+    .header{
+        /* height:30px; */
+        display:flex;
+        /* box-sizing: ;
+         */
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 100px;
+    }
+    .header span{
+        padding-left: 30px;
+    }
+    .logo-group{
+        justify-content: flex-start;
+    }
+    .hero-area{
+        display:flex;
+    }
+    .col{
+        width:49%;
+    }
+}
